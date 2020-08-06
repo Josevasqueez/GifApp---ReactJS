@@ -9,5 +9,3 @@ ReactDOM.render(
   <GifExpertApp />,
   document.getElementById('root')
 );
-
-// src GifExpertApp

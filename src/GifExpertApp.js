@@ -4,19 +4,12 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
 
-    // const categories = ['Beisbol', 'Futbol', 'Baloncesto'];
-
     const [categories, setCategories] = useState(['Beisbol']);
-
-    // const handleAdd = () => {
-    //     // setCategories( ['Futbol Américano', ...categories] );
-    //     setCategories( cats => [...cats, 'Futbol Américano'] )
-
-    // }
 
     return (
         <>
-            <h1>GifExpertApp</h1>
+            <h1>GifApp</h1>
+            <p>Obten gifs referente a lo que sea que escribas</p>
             <AddCategory setCategories={setCategories} />
             <br/>
             {
